@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from users import users
-from paddleocr import PaddleOCR, draw_ocr
+from paddleocr import PaddleOCR
 from PIL import Image
 import numpy as np
 
